@@ -1,0 +1,1451 @@
+/*========================
+Google fonts
+==========================*/
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300,400,500,600,700|Roboto:300,400,400i,700&display=swap');
+
+/*========================
+Common CSS Start
+==========================*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+i,
+span {
+    display: inline-block;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+a,
+h1,
+h2,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    color: #fff;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999;
+}
+
+button:focus {
+    outline: 0;
+}
+
+/*========================
+Common CSS End
+==========================*/
+
+/*========================
+    preloader CSS Start
+==========================*/
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.preloader .color-1 {
+    background-color: #ffc600 !important;
+}
+
+.rubix-cube {
+    border: 1px solid #FFF;
+    width: 48px;
+    height: 48px;
+    background-color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.rubix-cube .layer {
+    width: 14px;
+    height: 14px;
+    background-color: #07294d;
+    border: 1px solid #FFF;
+    position: absolute;
+}
+
+.rubix-cube .layer-1 {
+    left: 0px;
+    top: 0px;
+    -webkit-animation: rubixcube4 2s infinite linear;
+    animation: rubixcube4 2s infinite linear;
+}
+
+.rubix-cube .layer-2 {
+    left: 16px;
+    top: 0px;
+    -webkit-animation: rubixcube3 2s infinite linear;
+    animation: rubixcube3 2s infinite linear;
+}
+
+.rubix-cube .layer-3 {
+    left: 32px;
+    top: 0px;
+}
+
+.rubix-cube .layer-4 {
+    left: 0px;
+    top: 16px;
+    -webkit-animation: rubixcube5 2s infinite linear;
+    animation: rubixcube5 2s infinite linear;
+}
+
+.rubix-cube .layer-5 {
+    left: 16px;
+    top: 16px;
+    -webkit-animation: rubixcube2 2s infinite linear;
+    animation: rubixcube2 2s infinite linear;
+}
+
+.rubix-cube .layer-6 {
+    left: 32px;
+    top: 16px;
+    -webkit-animation: rubixcube1 2s infinite linear;
+    animation: rubixcube1 2s infinite linear;
+}
+
+.rubix-cube .layer-7 {
+    left: 0px;
+    top: 32px;
+    -webkit-animation: rubixcube6 2s infinite linear;
+    animation: rubixcube6 2s infinite linear;
+}
+
+.rubix-cube .layer-8 {
+    left: 16px;
+    top: 32px;
+    -webkit-animation: rubixcube7 2s infinite linear;
+    animation: rubixcube7 2s infinite linear;
+}
+
+@-webkit-keyframes rubixcube1 {
+    20% {
+        top: 16px;
+        left: 32px;
+    }
+
+    30% {
+        top: 32px;
+        left: 32px;
+    }
+
+    40% {
+        top: 32px;
+        left: 32px;
+    }
+
+    50% {
+        top: 32px;
+        left: 32px;
+    }
+
+    60% {
+        top: 32px;
+        left: 32px;
+    }
+
+    70% {
+        top: 32px;
+        left: 32px;
+    }
+
+    80% {
+        top: 32px;
+        left: 32px;
+    }
+
+    90% {
+        top: 32px;
+        left: 32px;
+    }
+
+    100% {
+        top: 32px;
+        left: 16px;
+    }
+}
+
+@keyframes rubixcube1 {
+    20% {
+        top: 16px;
+        left: 32px;
+    }
+
+    30% {
+        top: 32px;
+        left: 32px;
+    }
+
+    40% {
+        top: 32px;
+        left: 32px;
+    }
+
+    50% {
+        top: 32px;
+        left: 32px;
+    }
+
+    60% {
+        top: 32px;
+        left: 32px;
+    }
+
+    70% {
+        top: 32px;
+        left: 32px;
+    }
+
+    80% {
+        top: 32px;
+        left: 32px;
+    }
+
+    90% {
+        top: 32px;
+        left: 32px;
+    }
+
+    100% {
+        top: 32px;
+        left: 16px;
+    }
+}
+
+@-webkit-keyframes rubixcube2 {
+    30% {
+        left: 16px;
+    }
+
+    40% {
+        left: 32px;
+    }
+
+    50% {
+        left: 32px;
+    }
+
+    60% {
+        left: 32px;
+    }
+
+    70% {
+        left: 32px;
+    }
+
+    80% {
+        left: 32px;
+    }
+
+    90% {
+        left: 32px;
+    }
+
+    100% {
+        left: 32px;
+    }
+}
+
+@keyframes rubixcube2 {
+    30% {
+        left: 16px;
+    }
+
+    40% {
+        left: 32px;
+    }
+
+    50% {
+        left: 32px;
+    }
+
+    60% {
+        left: 32px;
+    }
+
+    70% {
+        left: 32px;
+    }
+
+    80% {
+        left: 32px;
+    }
+
+    90% {
+        left: 32px;
+    }
+
+    100% {
+        left: 32px;
+    }
+}
+
+@-webkit-keyframes rubixcube3 {
+    30% {
+        top: 0px;
+    }
+
+    40% {
+        top: 0px;
+    }
+
+    50% {
+        top: 16px;
+    }
+
+    60% {
+        top: 16px;
+    }
+
+    70% {
+        top: 16px;
+    }
+
+    80% {
+        top: 16px;
+    }
+
+    90% {
+        top: 16px;
+    }
+
+    100% {
+        top: 16px;
+    }
+}
+
+@keyframes rubixcube3 {
+    30% {
+        top: 0px;
+    }
+
+    40% {
+        top: 0px;
+    }
+
+    50% {
+        top: 16px;
+    }
+
+    60% {
+        top: 16px;
+    }
+
+    70% {
+        top: 16px;
+    }
+
+    80% {
+        top: 16px;
+    }
+
+    90% {
+        top: 16px;
+    }
+
+    100% {
+        top: 16px;
+    }
+}
+
+@-webkit-keyframes rubixcube4 {
+    50% {
+        left: 0px;
+    }
+
+    60% {
+        left: 16px;
+    }
+
+    70% {
+        left: 16px;
+    }
+
+    80% {
+        left: 16px;
+    }
+
+    90% {
+        left: 16px;
+    }
+
+    100% {
+        left: 16px;
+    }
+}
+
+@keyframes rubixcube4 {
+    50% {
+        left: 0px;
+    }
+
+    60% {
+        left: 16px;
+    }
+
+    70% {
+        left: 16px;
+    }
+
+    80% {
+        left: 16px;
+    }
+
+    90% {
+        left: 16px;
+    }
+
+    100% {
+        left: 16px;
+    }
+}
+
+@-webkit-keyframes rubixcube5 {
+    60% {
+        top: 16px;
+    }
+
+    70% {
+        top: 0px;
+    }
+
+    80% {
+        top: 0px;
+    }
+
+    90% {
+        top: 0px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes rubixcube5 {
+    60% {
+        top: 16px;
+    }
+
+    70% {
+        top: 0px;
+    }
+
+    80% {
+        top: 0px;
+    }
+
+    90% {
+        top: 0px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes rubixcube6 {
+    70% {
+        top: 32px;
+    }
+
+    80% {
+        top: 16px;
+    }
+
+    90% {
+        top: 16px;
+    }
+
+    100% {
+        top: 16px;
+    }
+}
+
+@keyframes rubixcube6 {
+    70% {
+        top: 32px;
+    }
+
+    80% {
+        top: 16px;
+    }
+
+    90% {
+        top: 16px;
+    }
+
+    100% {
+        top: 16px;
+    }
+}
+
+@-webkit-keyframes rubixcube7 {
+    80% {
+        left: 16px;
+    }
+
+    90% {
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes rubixcube7 {
+    80% {
+        left: 16px;
+    }
+
+    90% {
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+/*========================
+    preloader CSS Start
+==========================*/
+
+/*========================
+    Nevber CSS Start
+==========================*/
+.navigation {}
+
+.navigation.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    border-bottom: 1px solid #cecece;
+    -webkit-box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+    -webkit-animation: sticky 2s;
+    animation: sticky 2s;
+}
+
+@-webkit-keyframes sticky {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%)
+    }
+}
+
+@keyframes sticky {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%)
+    }
+}
+
+
+.navigation .navbar {
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navigation .navbar .logo-2 {
+    display: none;
+}
+
+.navigation .navbar .navbar-nav {
+    margin-right: 20px;
+}
+
+.navigation .navbar .navbar-nav li {
+    position: relative;
+}
+
+.navigation .navbar .navbar-nav li a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    padding: 30px 27px 30px 27px;
+    display: block;
+}
+
+.sticky .navbar .navbar-nav li a {
+    color: #07294d;
+}
+
+.navigation .navbar .navbar-nav > li > a.active,
+.navigation .navbar .navbar-nav > li:hover > a {
+    color: #ffc600;
+    text-decoration: none;
+}
+
+/*before*/
+.navigation .navbar .navbar-nav li a:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 90%;
+    width: 100%;
+    height: 3px;
+    background: #ffc600;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+}
+
+.navigation .navbar .navbar-nav li a:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.navigation .navbar .navbar-nav li .sub-menu {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background-color: #07294d;
+    width: 180px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    z-index: 99;
+    margin-top: -5px;
+}
+
+.navigation .navbar .navbar-nav li:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.navigation .navbar .navbar-nav li .sub-menu li {
+    margin-right: 0;
+}
+
+.navigation .navbar .navbar-nav li .sub-menu li a {
+    padding: 10px 15px;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation .navbar .navbar-nav li .sub-menu li a.active,
+.navigation .navbar .navbar-nav li .sub-menu li a:hover {
+    padding-left: 25px;
+    color: #ffc600;
+}
+
+.sub-nav-toggler {
+    display: none;
+}
+
+.navigation .navbar .navbar-nav li .sub-menu li:last-child a {
+    border-bottom: 0;
+}
+
+.navbar .navbar-toggler {
+    padding: 3px 8px;
+    margin: 18px 0;
+    -webkit-transform: all 0.4s linear;
+    transform: all 0.4s linear;
+    border-color: rgba(7, 41, 77, .1);
+}
+
+.navbar .navbar-toggler .icon-bar {
+    width: 30px;
+    height: 2px;
+    background-color: #07294d;
+    display: block;
+    margin: 5px 0;
+    position: relative;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.navbar .navbar-toggler.active .icon-bar:nth-of-type(1) {
+    -webkit-transform: rotate(46deg);
+    transform: rotate(46deg);
+    top: 7px;
+}
+
+.navbar .navbar-toggler.active .icon-bar:nth-of-type(2) {
+    opacity: 0;
+}
+
+.navbar .navbar-toggler.active .icon-bar:nth-of-type(3) {
+    -webkit-transform: rotate(134deg);
+    transform: rotate(134deg);
+    top: -7px;
+}
+
+
+/*========================
+    Nevber CSS End
+==========================*/
+
+
+/*==================
+    Banner CSS Start 
+=====================*/
+.banner_area {
+    height: 100vh;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.banner_overlay {
+
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(243, 129, 129, 0.90)), to(rgba(252, 227, 138, 0.90)));
+
+    background: linear-gradient(to bottom, rgba(243, 129, 129, 0.90), rgba(252, 227, 138, 0.90));
+    height: 100%;
+
+}
+
+section .banner-text h3 {
+    font-size: 72px;
+}
+
+.banner-text h1 {
+    font-weight: 700;
+    font-size: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 140px;
+    position: relative;
+    padding-bottom: 54px;
+    margin-bottom: 53px;
+}
+
+.banner-text h1:before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 100%;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.banner-text a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*==================
+    Banner CSS Start 
+=====================*/
+
+/*==================
+    About Us Start 
+=====================*/
+.section-text {
+    padding-top: 86px;
+    padding-bottom: 80px;
+}
+
+.section-text h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.section-text h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 34px;
+    margin-bottom: 42px;
+}
+
+.section-text h2:before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 100%;
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.section-text p {
+    color: #999;
+    line-height: 24px;
+}
+
+/*==================
+    About Us End 
+=====================*/
+
+/*===========================
+    About Us Img-gal Start
+===========================*/
+.About_Us {
+    padding-bottom: 110px;
+}
+
+.about_gal {
+    position: relative;
+}
+
+.About_Us .about_gal::before {
+    position: absolute;
+    content: "";
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 134, 134, 0.90)), to(rgba(255, 229, 137, 0.90)));
+    background: linear-gradient(to bottom, rgba(245, 134, 134, 0.90), rgba(255, 229, 137, 0.90));
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.About_Us .about_gal:hover:before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.About_Us .active::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.About_Us .about_gal img {
+    width: 100%;
+}
+
+.About_Us .about_gal .img_overlay {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.About_Us .about_gal:hover .img_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.About_Us .active .img_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.about_gal .img_overlay a i {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.About_Us .about_gal .img_overlay h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+}
+
+/*===========================
+    About Us Img-gal End 
+===========================*/
+
+/*===========================
+    Counter Css Start
+===========================*/
+.counter_area {
+    background: #95e1d3;
+    padding: 61px 0;
+}
+
+.counter_area .single_counter .myCounter span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.counter_area .single_counter .counter_title span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/*===========================
+    Counter Css End 
+===========================*/
+
+/*===========================
+    service-area Css start 
+===========================*/
+.single_service {
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
+.single_service .icon span i {
+    color: #95e1d3;
+    font-size: 40px;
+}
+
+.single_service .service_content .service_title {}
+
+.single_service .service_content .service_title h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.single_service .service_content .service_discp {}
+
+.single_service .service_content .service_discp p {
+    font-size: 14px;
+    color: #999999;
+}
+
+/*===========================
+    service-area Css End 
+===========================*/
+
+/*===========================
+    slide-area Css start 
+===========================*/
+.slide {
+    background: #f8f8f8;
+    padding: 70px 0;
+}
+
+.slider_icon {
+    border: 3px solid #95e1d3;
+    padding: 20px 20px 20px 25px;
+    margin: 12px 40px;
+}
+
+.slider_icon .fa {
+    font-size: 85px;
+    color: #95e1d3;
+}
+
+.slider_text p {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.slider_text h3 {
+    color: #333;
+    font-size: 24px;
+    position: relative;
+    padding-left: 68px;
+}
+
+.slider_text h3:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+
+.left_arrow,
+.right_arrow {
+    position: absolute;
+    top: 50%;
+    color: #ccc;
+    background: transparent;
+    border: 0;
+    font-size: 42px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.left_arrow {
+    left: 0;
+}
+
+.right_arrow {
+    right: 0;
+}
+
+/*===========================
+    slide-area Css End 
+===========================*/
+
+/*===========================
+    team-area Css start 
+===========================*/
+.single_team {
+    position: relative;
+}
+
+.team_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(243, 129, 129, 0.90)), to(rgba(252, 227, 138, 0.90)));
+    background: linear-gradient(rgba(243, 129, 129, 0.90), rgba(252, 227, 138, 0.90));
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.single_team:hover .team_overlay {
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.active .team_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team_social {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 61%;
+    text-align: center;
+}
+
+.team_social a {
+    width: 55px;
+    height: 56px;
+    background: #fce38a;
+    color: #f38181;
+    font-size: 26px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: -5px;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.team_social a:hover {
+    background: #f38181;
+    color: #fff;
+}
+
+.team_text {
+    padding-top: 36px;
+}
+
+.team_text h4 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.team_text p {
+    font-style: italic;
+    line-height: 24px;
+}
+
+/*===========================
+    team-area Css End 
+===========================*/
+
+/*===========================
+    work-area Css start 
+===========================*/
+.work_gal {
+    float: left;
+}
+
+.work_img {
+    position: relative;
+}
+
+.work_img::before {
+    position: absolute;
+    content: "";
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 134, 134, 0.90)), to(rgba(255, 229, 137, 0.90)));
+    background: linear-gradient(to bottom, rgba(245, 134, 134, 0.90), rgba(255, 229, 137, 0.90));
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.work_img:hover:before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.work_img .img_overlay {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.work_img:hover .img_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.work_img .img_overlay i {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.work_img .img_overlay h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+}
+
+.work_img .img_overlay p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*===========================
+    work-area Css End 
+===========================*/
+
+/*===========================
+    footer_area Css Start 
+===========================*/
+.footer_area {
+    margin-top: 92px;
+    background: #f8f8f8;
+    padding-top: 70px;
+}
+
+.footer_area h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 46px;
+    color: #ccc;
+}
+
+.mogo_text p {
+    padding-top: 32px;
+    line-height: 24px;
+}
+
+.mogo_text h5 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.mogo_text h5 small {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.mogo_rr {
+    background: #e5e5e5;
+    height: 1px;
+    margin: 12px 0;
+}
+
+.mogo_icon {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.follow {
+    float: left;
+}
+
+.follow p {
+    font-style: italic;
+    line-height: 24px;
+}
+
+.follow_icon {
+    float: left;
+    padding-left: 20px;
+}
+
+.follow_icon .fa {
+    padding-right: 14px;
+    color: #95e1d3;
+}
+
+/*subscribe_area*/
+.subscribe_area form input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #e7e7e7;
+}
+
+.subscribe_area form input::-webkit-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #CCC;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.subscribe_area form input:-ms-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #CCC;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.subscribe_area form input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #CCC;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.subscribe_area form {
+    position: relative;
+}
+
+.subscribe_area button {
+    background: #00bc9c;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 10px 34px;
+    border: 0;
+    position: absolute;
+    right: 0;
+    border-radius: 0;
+}
+
+
+.footer_area h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+/*blog*/
+.blog_item {
+    padding-bottom: 18px;
+}
+
+.blog_text a {
+    text-align: left;
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
+}
+
+.blog_text h5 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.blog_text p {
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    line-height: 24px;
+}
+
+/*instagram_area*/
+.instagram_area p {
+    font-style: italic;
+    font-size: 13px;
+    color: #333;
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.instagram_area img {
+    width: 100%;
+    padding: 2px;
+}
+
+.footer_area .label h6 {
+    padding: 25px 0;
+    font-size: 14px;
+}
+
+.footer_area .label h6 small {
+    color: #f38181;
+    font-size: 14px;
+}
+
+/*===========================
+    footer_area Css Eed 
+===========================*/
+
+/*===========================
+    back-to-top btn Css Start 
+===========================*/
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    width: 60px;
+    height: 50px;
+    line-height: 45px;
+    color: red;
+    background: #ffc600;
+    font-size: 28px;
+    border: 2px solid red;
+    border-radius: 50%;
+    z-index: 99;
+    text-align: center;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    display: none;
+    -webkit-animation: anim 3s infinite;
+    animation: anim 3s infinite;
+}
+
+.back-to-top:hover {
+    color: #fff;
+    background-color: red;
+    border: 3px solid #ffc600;
+}
+
+@-webkit-keyframes anim {
+    from {
+        right: 20px;
+        bottom: 50px;
+    }
+
+    to {
+        right: 20px;
+        bottom: 80px;
+    }
+}
+
+@keyframes anim {
+    from {
+        right: 20px;
+        bottom: 50px;
+    }
+
+    to {
+        right: 20px;
+        bottom: 80px;
+    }
+}
+
+/*===========================
+    back-to-top btn Css Eed 
+===========================*/

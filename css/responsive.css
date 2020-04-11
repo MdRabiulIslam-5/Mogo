@@ -1,0 +1,705 @@
+/*=====================================================
+Extra large devices (large desktops, 1200px and up)
+=====================================================*/
+@media (min-width: 1200px) {
+    .sticky .logo-1 img {
+        visibility: hidden;
+    }
+
+    .sticky .logo-2 {
+        display: block !important;
+    }
+
+    .sticky .logo-2 img {
+        position: absolute;
+        width: 86px;
+        left: 0;
+        top: 36%;
+        height: 23px;
+    }
+}
+
+
+/*=====================================================
+Large devices (desktops, 992px and up)
+=====================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .sticky .logo-1 img {
+        visibility: hidden;
+    }
+
+    .sticky .logo-2 {
+        display: block !important;
+    }
+
+    .sticky .logo-2 img {
+        position: absolute;
+        width: 86px;
+        left: 0;
+        top: 36%;
+        height: 23px;
+    }
+
+    .banner-text h1 {
+        font-size: 138px;
+    }
+
+    .team_social {
+        width: 74%;
+    }
+
+    .slider_icon {
+        border: 3px solid #95e1d3;
+        padding: 25px 20px 30px 32px;
+        margin: 14px 20px;
+    }
+
+    .slider_icon .fa {
+        font-size: 80px;
+        color: #95e1d3;
+    }
+
+    .slider_text p {
+        font-style: italic;
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+
+/*=====================================================
+Medium devices (tablets, 768px and up)
+=====================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sticky img {
+        display: none;
+    }
+
+    .navigation .navbar {
+        padding: 8px 0px;
+        width: 96%;
+    }
+
+    .navigation .navbar .navbar-nav {
+        margin-right: 0px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        background-color: #fff;
+        padding: 5px 10px;
+    }
+
+    .navigation .navbar .navbar-nav li {
+        margin-right: 0;
+    }
+
+    .navigation .navbar .navbar-nav li a {
+        padding: 8px 10px;
+        display: block;
+        color: #07294d;
+    }
+
+    .navigation .navbar .navbar-nav li .sub-menu {
+        position: relative !important;
+        width: 100% !important;
+        left: 0 !important;
+        top: auto !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: none;
+        right: auto;
+        -webkit-transition: none;
+        transition: none;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        text-align: left;
+    }
+
+    .navigation .navbar .navbar-nav li a .sub-nav-toggler {
+        position: absolute;
+        padding: 7px 11px;
+        background: none;
+        border: 0;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        display: block;
+    }
+
+
+    section .banner-text h3 {
+        font-size: 50px;
+    }
+
+    .banner-text h1 {
+        font-size: 102px;
+        line-height: 115px;
+        padding-bottom: 10px;
+        margin-bottom: 35px;
+    }
+
+    .banner-text a {
+        padding: 10px 20px;
+    }
+
+    .section-text {
+        padding: 55px 0;
+    }
+
+    .section-text h2 {
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    .About_Us {
+        padding-bottom: 75px;
+    }
+
+    .counter_area {
+        padding: 20px 0;
+    }
+
+    .counter_area .single_counter .myCounter span {
+        font-size: 50px;
+    }
+
+    .single_service {
+        margin-bottom: 25px;
+    }
+
+    .slide {
+        padding: 35px 0;
+    }
+
+    .slider_icon {
+        border: 3px solid #95e1d3;
+        padding: 20px 20px 20px 25px;
+        margin: 10px 4px;
+    }
+
+    .slider_icon .fa {
+        font-size: 75px;
+        color: #95e1d3;
+    }
+
+    .slider_text {
+        padding-left: 20px;
+    }
+
+    .slider_text p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .slider_text h3 {
+        font-size: 20px;
+        padding-left: 55px;
+    }
+
+    .slider_text h3::before {
+        width: 45px;
+    }
+
+    .team_social {
+        width: 31%;
+    }
+
+    .team_text {
+        padding-top: 20px;
+    }
+
+    .footer_area {
+        margin-top: 55px;
+        padding-top: 50px;
+    }
+
+    .mogo_text p {
+        padding-top: 20px;
+    }
+
+    .footer_logo_area {
+        padding-bottom: 40px;
+    }
+
+    .subscribe_area button {
+        padding: 10px 70px;
+    }
+
+    .footer_area .label h6 {
+        padding: 10px 0;
+    }
+
+    .back-to-top {
+        width: 45px;
+        height: 42px;
+        line-height: 40px;
+        font-size: 23px;
+        border: 1px solid red;
+        border-radius: 10%;
+    }
+}
+
+
+/*=====================================================
+Small devices (landscape phones, 576px and up)
+=====================================================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sticky img {
+        display: none;
+    }
+
+    .navigation .navbar {
+        padding: 8px 0px;
+        width: 95%;
+    }
+
+    .navigation .navbar .navbar-nav {
+        margin-right: 0px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        background-color: #fff;
+        padding: 5px 10px;
+    }
+
+    .navigation .navbar .navbar-nav li {
+        margin-right: 0;
+    }
+
+    .navigation .navbar .navbar-nav li a {
+        padding: 8px 10px;
+        display: block;
+        color: #07294d;
+    }
+
+    .navigation .navbar .navbar-nav li .sub-menu {
+        position: relative !important;
+        width: 100% !important;
+        left: 0 !important;
+        top: auto !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: none;
+        right: auto;
+        -webkit-transition: none;
+        transition: none;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        text-align: left;
+    }
+
+    .navigation .navbar .navbar-nav li a .sub-nav-toggler {
+        position: absolute;
+        padding: 7px 11px;
+        background: none;
+        border: 0;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        display: block;
+    }
+
+    section .banner-text h3 {
+        font-size: 45px;
+    }
+
+    .banner-text h1 {
+        font-size: 92px;
+        line-height: 100px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+
+    .banner-text a {
+        padding: 10px 20px;
+    }
+
+    .section-text {
+        padding: 30px 0;
+    }
+
+    .section-text h3 {
+        font-size: 20px;
+    }
+
+    .section-text h2 {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .section-text h2::before {
+        width: 50px;
+        height: 3px;
+    }
+
+    .About_Us {
+        padding-bottom: 75px;
+    }
+
+    .about_gal.active {
+        margin-top: -10px;
+    }
+
+    .about_gal {
+        margin-top: 35px;
+    }
+
+    .counter_area {
+        padding: 20px 0;
+    }
+
+    .counter_area .single_counter .myCounter span {
+        font-size: 40px;
+    }
+
+    .counter_area .single_counter .counter_title span {
+        font-size: 12px;
+    }
+
+    .single_service {
+        margin-bottom: 25px;
+    }
+
+    .single_service .icon span i {
+        font-size: 30px;
+    }
+
+    .single_service .service_content .service_discp p {
+        font-size: 12px;
+    }
+
+    .slide {
+        padding: 25px 0;
+    }
+
+    .slider_icon {
+        border: 3px solid #95e1d3;
+        padding: 20px 20px 20px 25px;
+        margin: 10px 4px;
+    }
+
+    .slider_icon .fa {
+        font-size: 60px;
+        color: #95e1d3;
+    }
+
+    .slider_text {
+        padding-left: 20px;
+    }
+
+    .slider_text p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .slider_text h3 {
+        font-size: 20px;
+        padding-left: 45px;
+    }
+
+    .slider_text h3::before {
+        width: 35px;
+    }
+
+    .left_arrow,
+    .right_arrow {
+        display: none !important;
+    }
+
+    .blog_area {
+        margin-bottom: 15px;
+    }
+
+    .team_social {
+        width: 42%;
+    }
+
+    .team_text {
+        padding-top: 20px;
+    }
+
+    .footer_area {
+        margin-top: 40px;
+        padding-top: 35px;
+    }
+
+    .mogo_text p {
+        padding-top: 20px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .footer_logo_area {
+        padding-bottom: 30px;
+    }
+
+    .footer_area h4 {
+        padding-bottom: 20px;
+    }
+
+    .subscribe_area button {
+        padding: 10px 45px;
+    }
+
+    .footer_area .label h6 {
+        padding: 10px 0;
+    }
+
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        border: 1px solid red;
+        border-radius: 20%;
+    }
+}
+
+
+/*============================================
+Extra small devices (portrait phones, less than 576px)
+===========================================*/
+@media (max-width: 575.98px) {
+    .sticky img {
+        display: none;
+    }
+
+    .navigation .navbar {
+        padding: 8px 0px;
+        width: 90%;
+    }
+
+    .navigation .navbar .navbar-nav {
+        margin-right: 0px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        background-color: #fff;
+        padding: 5px 10px;
+    }
+
+    .navigation .navbar .navbar-nav li {
+        margin-right: 0;
+    }
+
+    .navigation .navbar .navbar-nav li a {
+        padding: 8px 10px;
+        display: block;
+        color: #07294d;
+    }
+
+    .navigation .navbar .navbar-nav li .sub-menu {
+        position: relative !important;
+        width: 100% !important;
+        left: 0 !important;
+        top: auto !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: none;
+        right: auto;
+        -webkit-transition: none;
+        transition: none;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        text-align: left;
+    }
+
+    .navigation .navbar .navbar-nav li a .sub-nav-toggler {
+        position: absolute;
+        padding: 7px 11px;
+        background: none;
+        border: 0;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        display: block;
+    }
+
+    section .banner-text h3 {
+        font-size: 28px;
+    }
+
+    .banner-text h1 {
+        font-size: 52px;
+        line-height: 65px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+
+    .banner-text a {
+        padding: 10px 20px;
+    }
+
+    .section-text {
+        padding: 30px 0;
+    }
+
+    .section-text h3 {
+        font-size: 20px;
+    }
+
+    .section-text h2 {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .section-text h2::before {
+        width: 50px;
+        height: 3px;
+    }
+
+    .section-text p {
+        line-height: 22px;
+    }
+
+    .About_Us {
+        padding-bottom: 75px;
+    }
+
+    .about_gal.active {
+        margin-top: -10px;
+    }
+
+    .about_gal {
+        margin-top: 25px;
+    }
+
+    .counter_area {
+        padding: 20px 0;
+    }
+
+    .counter_area .single_counter .myCounter span {
+        font-size: 35px;
+    }
+
+    .single_service {
+        margin-bottom: 25px;
+    }
+
+    .single_service .icon span i {
+        font-size: 30px;
+    }
+
+    .slide {
+        padding: 25px 0;
+    }
+
+    .slider_icon {
+        border: 3px solid #95e1d3;
+        padding: 30px;
+        margin: 10px 95px 15px 78px;
+        text-align: center;
+    }
+
+    .slider_icon .fa {
+        font-size: 60px;
+        color: #95e1d3;
+    }
+
+    .slider_text {
+        padding: 0px 30px;
+        text-align: center;
+    }
+
+    .slider_text p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .slider_text h3 {
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    .slider_text h3::before {
+        display: none;
+    }
+
+    .left_arrow,
+    .right_arrow {
+        display: none !important;
+    }
+
+    .blog_area {
+        margin-bottom: 15px;
+    }
+
+    .team_social {
+        width: 74%;
+    }
+
+    .team_text {
+        padding-top: 20px;
+    }
+
+    .footer_area {
+        margin-top: 40px;
+        padding-top: 35px;
+    }
+
+    .mogo_text p {
+        padding-top: 20px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .footer_logo_area {
+        padding-bottom: 30px;
+    }
+
+    .mogo_icon {
+        margin-bottom: 0;
+    }
+
+    .follow_icon {
+        padding-left: 10px;
+    }
+
+    .follow_icon .fa {
+        padding-right: 5px;
+        font-size: 18px;
+    }
+
+    .subscribe_area button {
+        padding: 10px 10px;
+    }
+
+    .footer_area h4 {
+        padding-bottom: 20px;
+    }
+
+    .footer_area .label h6 {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .footer_area .label h6 small {
+        font-size: 12px;
+    }
+
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        border: 1px solid red;
+        border-radius: 50%;
+    }
+}
